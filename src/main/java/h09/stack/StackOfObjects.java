@@ -31,7 +31,9 @@ public class StackOfObjects {
      */
     public Object pop() {
         checkIfEmpty();
-        return get(lastIndex--);
+        var e = get(lastIndex);
+        lastIndex--;
+        return e;
     }
 
     /**
