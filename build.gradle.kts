@@ -4,7 +4,7 @@ plugins {
 }
 
 exercise {
-    assignmentId.set("h10")
+    assignmentId.set("h09")
 }
 
 submission {
